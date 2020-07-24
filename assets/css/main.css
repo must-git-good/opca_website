@@ -3132,26 +3132,28 @@
 
 			}
 
-		#header .logo {
-			font-family: "Lato", sans-serif;
-			display: inline-block;
-			height: inherit;
-			left: 0;
-			line-height: inherit;
-			margin: 0;
-			padding: 0;
-			position: absolute;
-			top: 0;
-			color: #e5474b;
-			font-size: 1.75em;
-			text-transform: none;
-			font-weight: normal;
-			padding: 0;
-		}
-
-			#header .logo:hover {
-				color: rgba(229, 71, 75, 0.75);
+			#header .logo {
+				/* font-family: "Lato", sans-serif; */
+				/* display: inline-block; */
+				height: 4.5em;
+				left: 0;
+				/* line-height: inherit; */
+				margin: .25em;
+				padding: 0;
+				position: absolute;
+				top: 0;
+				color: #0095C9;
+				/* font-size: 1.75em; */
+				/* text-transform: none; */
+				/* font-weight: normal; */
 			}
+	
+				#header .logo:hover {
+					/* color: rgba(229, 71, 75, 0.75); */
+					height: 5em;
+					margin: 0;
+				}
+	
 
 		#header a {
 			-moz-transition: color 0.2s ease-in-out;
